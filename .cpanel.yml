@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/spnsoftw/school-dev.spnsoftwares.com
-    - /bin/cp -R ./ $DEPLOYPATH
+    - export SCHOOLDEPLOYPATH=/home/spnsoftw/school-dev.spnsoftwares.com
+    - /bin/cp -R ./ $SCHOOLDEPLOYPATH
